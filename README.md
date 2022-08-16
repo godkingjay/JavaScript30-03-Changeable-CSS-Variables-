@@ -23,18 +23,18 @@ Build An App With Changeable CSS Variables:
 
 ### Screenshot
 
--Desktop
+- Desktop
 
 ![Desktop](./screenshot.jpg)
 
 
--Mobile
+- Mobile
 
 ![Mobile](./screenshot-mobile.jpg)
 
 ### Links
 
-- Live Site: ---> [LINK]()
+- Live Site: ---> [LINK](https://godkingjay.github.io/JavaScript30-03-Changeable-CSS-Variables-/)
 
 ## My process
 
