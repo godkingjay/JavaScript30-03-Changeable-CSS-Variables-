@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>03 CSS Variables Slider | JavaScript30</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<main>
+		<div class="wrapper">
+			<div class="card">
+
+				<div class="controls-ctn">
+					<div class="controls-panel">
+						<h1>Update CSS Variables with <span class="hl">JS</span></h1>
+						<span class="controls-divider"></span>
+						
+						<form class="controls-form">
+							<div class="controls-type">
+								<span class="controls-type-bg"></span>
+								<label for="spacing" class="controls-name">Spacing:</label>
+								<input type="range" name="spacing" min="0" max="200" value="10" data-sizing="px" placeholder="10">
+							</div>
+							
+							<div class="controls-type">
+								<span class="controls-type-bg"></span>
+								<label for="blur" class="controls-name">Blur:</label>
+								<input type="range" name="blur" min="0" max="200" value="10" data-sizing="px" placeholder="10">
+							</div>
+							
+							<div class="controls-type">
+								<span class="controls-type-bg"></span>
+								<label for="base" class="controls-name">Color:</label>
+								<input type="color" name="base" value="#ffc600" placeholder="#ffc600">
+							</div>
+						</form>
+
+					</div>
+				</div>
+				
+				<div class="display-ctn">
+					<div class="display-panel">
+						<img src="https://capeodd.com/wp-content/uploads/space-monkey-2.jpg" alt="image">
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</main>
+
+	<script src="index.js"></script>
+
+</body>
+</html>
